@@ -1,0 +1,52 @@
+body{
+    height: 700px;
+}
+
+nav{
+    z-index: 1;
+}
+
+footer{
+    background-color: var(--green);
+}
+
+.card .btn{
+    width: 100px;
+    height: 30px;
+    font-size: var(--fs-small);
+    text-align: center;
+    
+    
+
+}
+
+nav .navbar-brand{
+    color: var(--text-light);
+}
+
+nav .navbar-brand:hover{
+    color: var(--orange);
+}
+
+nav .nav-link{
+    color: var(--text-light);
+}
+
+nav .nav-link:hover{
+    color: var(--orange);
+}
+
+footer p{
+   
+    padding: var(--spacing-small) 0;
+    margin-bottom: 0;
+    font-size: var(--fs-small);
+    color: var(--text-light);
+    
+}
+
+
+
+
+
+

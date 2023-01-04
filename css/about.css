@@ -1,0 +1,48 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 650px;
+}
+
+nav {
+    z-index: 1;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.people{
+    margin: 5rem 3rem;
+    
+}
+
+nav .navbar-brand{
+    color: var(--text-light);
+}
+
+nav .navbar-brand:hover{
+    color: var(--orange);
+}
+
+nav .nav-link{
+    color: var(--text-light);
+}
+
+nav .nav-link:hover{
+    color: var(--orange);
+}
+
+footer p{
+   
+    padding: var(--spacing-small) 0;
+    margin-bottom: 0;
+    font-size: var(--fs-small);
+    color: var(--text-light);
+    
+}
+
